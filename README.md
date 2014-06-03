@@ -28,7 +28,7 @@ Note: Most templates define Vagrant Base Boxes, so in each template vagrant user
     ├── RedHat5
     │   ├── common.cfg
     │   ├── vbmachine.cfg
-    │   ├── vbmachine-5.8-x86_64-noX.cfg
+    │   ├── vbmachine-5.6-x86_64-noX.cfg
     │   ├── vbmachine-5.9-x86_64-noX.cfg
     │   ├── vbmachine-5.10-x86_64-noX.cfg
     │   ├── kickstart
