@@ -6,7 +6,7 @@ Debian 6 [vbkick](https://github.com/wilas/vbkick) template. Help creates Vagran
 
 ### change definition (change the target of a symlink)
 ```
-    ln -fs definition-6.0.9-i386.cfg definition.cfg
+    ln -fs vbmachine-6.0.9-i386.cfg vbmachine.cfg
 ```
 
 ### create new vagrant base box

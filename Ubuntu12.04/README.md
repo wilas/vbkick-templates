@@ -6,7 +6,7 @@ Ubuntu 12.04 [vbkick](https://github.com/wilas/vbkick) template. Help creates Va
 
 ### change definition (change the target of a symlink)
 ```
-    ln -fs definition-12.04.4-x86_64-docker.cfg definition.cfg
+    ln -fs vbmachine-12.04.4-x86_64-docker.cfg vbmachine.cfg
 ```
 
 ### create new vagrant base box
