@@ -3,6 +3,7 @@
 base.sh
 sudo.sh
 virtualbox.sh
+backports_repo.sh
 ruby.sh
 ansible.sh
 puppet.sh
