@@ -75,9 +75,9 @@ Description:
  - `postinstall dir` contain all scripts run during postinstall process
  - `validate dir` contain all scripts run during validate process
  - `kickstart dir` contain all files used during bootstrap process
- - each file in kickstart (e.g. `ks.cfg/preseed.cfg`) has descriptive names (`<OS_NAME>-<VERSION>-<ARCH>-<SPEC_DESC>.cfg`) e.g.: `redhat-6.3-x86_64-noX.cfg`, `redhat-6.4-x86_64-docker.cfg`, `debian-7.4-noarch-desktop.cfg`
+ - each file in kickstart (e.g. `ks.cfg/preseed.cfg`) has descriptive name (`<OS_NAME>-<OS_VERSION>-<ARCH>-<SPEC_DESC>.cfg`) e.g.: `redhat-6.3-x86_64-noX.cfg`, `redhat-6.4-x86_64-docker.cfg`, `debian-7.4-noarch-desktop.cfg`
  - **vbmachine.cfg is a symlink** to a default virtualbox machine definition
- - each definition has descriptive name e.g. `vbmachine-6.3-x86_64-noX.cfg`, `vbmachine-6.4-x86_64-noX.cfg`, `vbmachine-6.5-x86_64-beta.cfg`
+ - each vbmachine definition file has descriptive name e.g. `vbmachine-6.3-x86_64-noX.cfg`, `vbmachine-6.4-x86_64-noX.cfg`, `vbmachine-6.5-x86_64-beta.cfg`
  - common settings should be moved to separate file (e.g. `common.cfg`) which is included by all definitions.
  - each template look after **"big" OS release**, e.g. `RedHat6`, `Redhat5`, `Debian7`, `Debian6`, `Ubuntu12.04`
  - OS ISOs and SSH keys are not included - `vbkick` downloads and creates them during the `build` process.
